@@ -1,3 +1,4 @@
+// Search Script
 document.addEventListener('DOMContentLoaded', function () {
     // Get the search icon element
     var searchIcon = document.getElementById('searchIcon');
@@ -13,3 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
         searchBar.classList.toggle('d-none');
     });
 });
+
+
+
