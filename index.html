@@ -37,6 +37,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper CSS (for mobile slider) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -278,6 +280,93 @@
             </div>
         </section>
 
+        <!-- 3x2 Grid (desktop/tablet) + Mobile Slider -->
+        <section id="grid-slider">
+            <div class="container">
+                <div class="row mb-4 text-center">
+                    <div class="col-12">
+                        <h2 class="main-head">Browse Categories</h2>
+                        <div class="d-flex justify-content-center mt-3 mb-4">
+                            <div class="cust-border"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desktop/Tablet Grid (3 x 2) -->
+                <div class="row g-3 d-none d-md-flex grid-six">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="grid-card" style="background-image: url('assets/images/prod-img-01.svg');">
+                            <div class="grid-card-content">Bathroom Tiles</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="grid-card" style="background-image: url('assets/images/prod-img-02.svg');">
+                            <div class="grid-card-content">Marble</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="grid-card" style="background-image: url('assets/images/prod-img-03.svg');">
+                            <div class="grid-card-content">Outdoor Flooring</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="grid-card" style="background-image: url('assets/images/prod-img-04.svg');">
+                            <div class="grid-card-content">Kitchen Interior</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="grid-card" style="background-image: url('assets/images/proj-img-01.svg');">
+                            <div class="grid-card-content">Sand Stone</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="grid-card" style="background-image: url('assets/images/proj-img-02.svg');">
+                            <div class="grid-card-content">Wood Flooring</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Slider -->
+                <div class="d-md-none">
+                    <div class="swiper" id="gridSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="grid-card" style="background-image: url('assets/images/prod-img-01.svg');">
+                                    <div class="grid-card-content">Bathroom Tiles</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid-card" style="background-image: url('assets/images/prod-img-02.svg');">
+                                    <div class="grid-card-content">Marble</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid-card" style="background-image: url('assets/images/prod-img-03.svg');">
+                                    <div class="grid-card-content">Outdoor Flooring</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid-card" style="background-image: url('assets/images/prod-img-04.svg');">
+                                    <div class="grid-card-content">Kitchen Interior</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid-card" style="background-image: url('assets/images/proj-img-01.svg');">
+                                    <div class="grid-card-content">Sand Stone</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="grid-card" style="background-image: url('assets/images/proj-img-02.svg');">
+                                    <div class="grid-card-content">Wood Flooring</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Project Section -->
         <section id="project">
             <div class="container">
@@ -388,6 +477,8 @@
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS (for mobile slider) -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
 
 </body>
