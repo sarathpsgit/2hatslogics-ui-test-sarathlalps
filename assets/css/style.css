@@ -564,6 +564,38 @@ footer .menu li {
   }
 }
 
+/* ===== 3x2 grid + mobile slider styles ===== */
+#grid-slider {
+  padding-top: 3rem;
+}
+
+.grid-six .grid-card,
+#gridSwiper .grid-card {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-card-content {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  background: rgba(17, 16, 16, 0.85);
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+}
+
+/* Swiper pagination alignment on mobile */
+#gridSwiper .swiper-pagination-bullets {
+  bottom: 8px;
+}
+
 /* ----------- iPad ----------- */
 
 /* Portrait and Landscape */
